@@ -268,32 +268,6 @@ form {
 }
 
 
-@media screen and (max-width: 480px) {
-
-    form > .fields {
-        width: calc(100% + 2em);
-        margin: -1em 0 2em -1em;
-    }
-
-    form > .fields > .field {
-        padding: 1em 0 0 1em;
-        width: calc(100% - 1em);
-    }
-
-    form > .fields > .field.half {
-        width: calc(100% - 1em);
-    }
-
-    form > .fields > .field.third {
-        width: calc(100% - 1em);
-    }
-
-    form > .fields > .field.quarter {
-        width: calc(100% - 1em);
-    }
-
-}
-
 label {
     display: block;
 }
@@ -481,40 +455,6 @@ header p {
 footer {
     margin-top: 2em;
 }
-
-/* Table */
-
-table {
-    width: 100%;
-}
-
-table.default {
-    width: 100%;
-}
-
-table.default tbody tr:nth-child(2n+2) {
-    background: rgba(229, 230, 231, 0.5);
-}
-
-table.default td {
-    padding: 0.5em 1em 0.5em 1em;
-}
-
-table.default th {
-    text-align: left;
-    font-weight: 900;
-    padding: 0.5em 1em 0.5em 1em;
-}
-
-table.default thead {
-    background: #39454b;
-    color: #ffffff;
-}
-
-table.default tfoot {
-    background: #e5e6e7;
-}
-
 
 
 
